@@ -21,7 +21,7 @@ void setup()
   
   if (miWifi.wifiActivo()==OK_WIFI)
   {
-    miWifi.configurarWifi("DELABS","dellmacmolaano");  
+    miWifi.configurarWifi("ssid","password");  
     /*DBG.println(miWifi.enviarStr("192.168.2.165",2000,F("Hola mundo\n")));
     DBG.println(miWifi.enviarStr("192.168.2.165",2000,F("que tal el día\n")));
     DBG.println(miWifi.enviarStr("192.168.2.165",2000,F("ahora esto va mucho mejor")));
